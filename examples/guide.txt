@@ -1,0 +1,50 @@
+neural-network-from-scratch/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── src/
+│   ├── autograd/
+│   │   ├── __init__.py
+│   │   ├── tensor.py
+│   │   ├── graph.py
+│   │   └── ops.py
+│   │
+│   ├── nn/
+│   │   ├── module.py
+│   │   ├── linear.py
+│   │   ├── activations.py
+│   │   ├── normalization.py
+│   │   ├── dropout.py
+│   │   └── losses.py
+│   │
+│   ├── optim/
+│   │   ├── optimizer.py
+│   │   ├── sgd.py
+│   │   ├── rmsprop.py
+│   │   └── adam.py
+│   │
+│   ├── data/
+│   │   └── mnist.py
+│   │
+│   └── engine/
+│       ├── trainer.py
+│       └── metrics.py
+│
+├── tests/
+│   ├── test_autograd.py
+│   ├── test_layers.py
+│   ├── test_losses.py
+│   └── test_optimizers.py
+│
+├── examples/
+│   ├── scalar_autograd.py
+│   ├── xor.py
+│   └── mnist.py
+│
+├── benchmarks/
+│   └── pytorch_comparison.py
+│
+└── notebooks/
+    └── experiments.ipynb

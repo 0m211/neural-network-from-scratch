@@ -1,0 +1,36 @@
+# Neural Network From Scratch Using NumPy
+
+## Overview
+
+An educational deep learning framework built from scratch using Python and NumPy. The project implements core neural network components and evaluates their behavior through controlled experiments.
+
+## Key Features
+
+* Custom automatic differentiation engine
+* Fully connected neural network layers
+* Activation functions and loss functions
+* Gradient-based optimization
+* Dropout regularization
+* Batch normalization
+* Model saving and loading
+* Numerical gradient checking
+* Early stopping and checkpoint selection
+* Repeated-seed experiments
+* Classification metrics and confusion-matrix analysis
+
+## MNIST Classification Results
+
+**Selected model:** Fully connected neural network with dropout probability 0.2.
+
+* Test accuracy: 97.92%
+* Test cross-entropy loss: 0.06553
+* Correct predictions: 9,792 out of 10,000
+* Macro F1-score: 97.91%
+
+The model was selected using validation data and evaluated on the official MNIST test set.
+
+## Engineering Focus
+
+The project emphasizes understanding neural network internals, validating gradient calculations, comparing optimization and regularization techniques, and analyzing model errors.
+
+The next development stage focuses on visual error analysis and systematic model improvement.
